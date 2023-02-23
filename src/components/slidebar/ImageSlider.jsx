@@ -40,7 +40,7 @@ function ImageSlider() {
       }><BsFillCaretLeftFill size={40} /></button>
 
       <Link to={wordData.url}>
-        <img src={wordData.value} height="300" width="100%" alt='img' /> 
+        <img src={wordData.value} height="300" width="500" alt='img' className='slider-img'/> 
       </Link>
 
       <button onClick={
