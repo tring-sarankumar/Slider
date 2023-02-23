@@ -1,0 +1,29 @@
+
+.main{
+    text-align: center;
+    margin-top:30px ;
+  }
+  .flex_row{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+.thumbnail{
+  padding-left: 20px;
+}
+.clicked{
+  border: 5px solid black;
+}
+
+.arr{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+border: none;
+background: none;
+cursor: pointer;
+}
